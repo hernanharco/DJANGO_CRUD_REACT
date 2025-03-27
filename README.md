@@ -16,6 +16,7 @@ una vez instalado vamos a dar - el segundo venv es el nombre de la carpeta donde
 	-> python -m venv venv
 	- Ahora vamos a trabajar en el archivo activate pero podemos
 		f1 - "Interpreter" - aqui debio aparecer (venv) no me aparecio en la terminal si aparece un error volver aqui
+		
 			o
 				.\venv\Scripts\activate "Activar el entorno virtual OJO"
 	
@@ -65,6 +66,7 @@ para cancelar el runserver le damos ctrl + cancelar
 python manage.py startapp tasks -> esto es para inicializar una  aplicación en este caso le colocamos el nombre de tasks
 
 ahora en la parte de django_crud_api - settings.py
+
 	INSTALLED_APPS = [
 		'django.contrib.admin',
 		'django.contrib.auth',
