@@ -43,6 +43,8 @@ instalamos django
 -> pip install django
 
 -->> Backend <<--
+
+
 con el siguiente comando podemos ver todas las opciones
 django-admin
 para comenzar el projecto vamos a escribir - "django_crud_api" -> este es el nombre que se le da al projecto se puede escribir el que se guste
@@ -303,7 +305,7 @@ Crear el projecto
 		y lo importamos en el page de TasksPage.jsx
 
 -> Peticion al Backend <- 54:50
-	nos ublicamos TaskList.jsx y agregamos el useEffect
+	nos ubicamos TaskList.jsx y agregamos el useEffect
 	
 	>api creamos el archivo
 		tasks.api.js 57:16
