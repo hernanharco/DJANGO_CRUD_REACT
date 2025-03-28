@@ -101,7 +101,7 @@ en la carpeta de
   
 pero esto lo vamos hacer con un comando
 
-para cancelar el runserver le damos ctrl + cancelar
+para cancelar el runserver le damos ctrl + c -> para detener el proceso
 
 python manage.py startapp tasks -> esto es para inicializar una  aplicación en este caso le colocamos el nombre de tasks
 
