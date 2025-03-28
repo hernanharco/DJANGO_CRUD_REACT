@@ -180,10 +180,12 @@ pyton tiene la forma de crear las tablas
 
 	-> tasks -> models.py y creamos la clase Task
 		ejecutamos la tablas, con el siguiente crea el codigo para ejecutar la tabla y esto se ubica en
-			python manage.py makemigrations
+  
+			python manage.py makemigrations -> ejecutar
 			-> migrations - 0001_initial.py
+   
 			para ejecutar la tabla
-			python manage.py migrate tasks
+			python manage.py migrate -> ejecutar
 			
 	lo que estamos es creando las tablas dentro en db.sqlite3 que es la base de datos que utiliza django por defecto
 	
