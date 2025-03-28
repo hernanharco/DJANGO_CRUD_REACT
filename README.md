@@ -1,7 +1,9 @@
 Pasos a tener encuenta cuando se inicia en un nuevo portatil
 
 Ver la version de Python 
+
 	-> python --version
+ 
 para trabajar con django pide que sea un version minimo 3.8
 
 - se mira la version de node
