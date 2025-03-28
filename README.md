@@ -64,6 +64,16 @@ instalamos django
 
 	-> pip install django
 
+ -> RESUMEN <-
+ 	Si es un equipo que ya tiene todo instalado lo que debemos de hacer
+  	
+   	1. Creamos la carpeta con el nombre que deseamos
+    	2. Se abre con visual studio se puede arrastras
+     	3. Se crea la carpeta virtual que el comando es:
+      		python -m venv venv
+	4. En la terminal activamos el entorno virtual para esto hacemos el siguiente comando:
+ 		.\venv\Scripts\activate
+
  
 -->> Backend <<--
 
