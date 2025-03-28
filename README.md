@@ -7,48 +7,62 @@ Ver la version de Python
 para trabajar con django pide que sea un version minimo 3.8
 
 - se mira la version de node
+  
 	-> node --version
+
 	lo mejor que sea un version por encima de la 16
 	si no se tiene instalado seguir esta guia
 	https://kinsta.com/es/blog/como-instalar-node-js/
 
 para equipos nuevos y crear un entorno virtual de python
+
 pip install virtualenv
+
 una vez instalado vamos a dar - el segundo venv es el nombre de la carpeta donde se va a guardar los comandos
+
 	-> python -m venv venv
+ 
 	- Ahora vamos a trabajar en el archivo activate pero podemos
+ 
 		f1 - "Interpreter" - aqui debio aparecer (venv) no me aparecio en la terminal si aparece un error volver aqui
 		
 			o
 				.\venv\Scripts\activate "Activar el entorno virtual OJO"
 	
 forma de arreglar el error del entorno virtual
-	1-> Ejecuta el siguiente comando para permitir la ejecución de scripts solo en la sesión actual:
 
+	1-> Ejecuta el siguiente comando para permitir la ejecución de scripts solo en la sesión actual:
+ 
 powershell
+
 Copy
+
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
 Luego, intenta activar el entorno virtual nuevamente:
 
 
 powershell
+
 Copy
 	.\venv\Scripts\activate "Activar el entorno virtual OJO"
 
 2. Cambiar la política de ejecución de forma permanente (si lo necesitas frecuentemente):
 Abre PowerShell como administrador.
 
-
 Ejecuta:
 
 powershell
+
 Copy
+
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 instalamos django
+
 	-> pip install django
 
+ 
 -->> Backend <<--
 
 
