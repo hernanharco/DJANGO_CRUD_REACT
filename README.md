@@ -65,6 +65,7 @@ instalamos django
 	-> pip install django
 
  -> RESUMEN <-
+ 
  	Si es un equipo que ya tiene todo instalado lo que debemos de hacer
   	
    	1. Creamos la carpeta con el nombre que deseamos
