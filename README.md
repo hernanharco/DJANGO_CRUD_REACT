@@ -325,11 +325,76 @@ Crear el projecto
 			
 		agregamos el usestate al TasksList.jsx 10:01
 		
+		creamos en >components 
+			el archivo TaskCard.jsx
+			
+	-- CREANDO TAREAS -- 1:05
 		
+		>pages > TaskFormPage.jsx
+			useForm - sirve para guardar los datos del form
+				investigar yup y zod que se utiliza para la parte de la validación de datos
+				
+			>api > tasks.api.js
+				vamos agregar la funcion createTask -> para crear los datos
+				
+				volvemos a TaskFormPage.jsx para importar la informacionn que se creo en el API
+					import { createTask }
+					
+	-- Eliminar Tareas -- 1:17
+		> TasksList
+			> TasksList.jsx y hacemos el recuadro
+			en App.jsx
+			<Route path="/tasks/:id" element={<TaskFormPage />} /> - con esta linea si tiene algun numero lo va a enviar a la pagina
+			que se le dice
+			
+			en TaskCard.jsx
+				En onClick cuando se presione no vas a llevar a la información para eliminar
+				
+			TaskFormPage.jsx
+				agregamos al final el boton de eliminar
+				
+				vamos a borrar el boton de delete para que no aparezca en el momento de crear
+				para esto vamos a utilizar el parametro
+				
+				useParams
+				
+				entramos a tasks.api.js -> y agregamos la funcion de deleteTask
 		
+	-- Consultar Tareas -- 1:26
+		Se trabaja en TasksFormPage.jsx
+			en la parte 
+			
+			const onSubmit = handleSubmit(async (data) => {
+				//console.log(data)
+				//const res = await createTask(data)
+				//console.log(res)
+				if (params.id) {
+				  console.log('actualizando')
+				} else {
+				  await createTask(data)      
+				}
+
+				navigate('/tasks')
+			  })
+			
+			en el archivo de tasks.api.js y agregamos el updateTask
+		
+	-- TailwindCSS y React -- 1:37
 	
+		- vamos a mostrar un mensaje en la parte inferior y para esto lo vamos a importar en
+		App.jsx
 		
-
-
-
+			- importa Toaster
+				tiene una pagina react-hot-toast-com
+			
+			- lo vamos a trabajar en TaskFormPage.jsx
+			
+			pagina tailwindcss.com
+				- get started
+					- Framework Guides
+						se busca el framework
+							https://tailwindcss.com/docs/installation/using-vite
+							hay una parte que es improtar se debe hacer en el index.css
+							
+			archivos trabajados app.jsx, TaskList, TaskCard, Navigation, TaskFormPage			
 		
