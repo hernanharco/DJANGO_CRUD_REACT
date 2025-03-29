@@ -253,9 +253,10 @@ Es para que documente nuestra informacion
 		>tasks > urls.py
 			path("docs/", include_docs_urls(title="doc_Tasks API"))
 				y agregamos el from from rest_framework.documentation import include_docs_urls
-		>django_crud_api
-			REST_FRAMEWORK = {
-				...: ...,
+    
+		38:33>django_crud_api>settings.py
+  			y se pega al final la informacion siguiente
+			REST_FRAMEWORK = {				
 				"DEFAULT_SCHEMA_CLASS": "rest_framework.schemas.coreapi.AutoSchema",
 			}
 			
