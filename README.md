@@ -229,11 +229,11 @@ en la carpeta de tasks creamos un archivo
 	Creamos un archivo en tasks
  
 		urls.py
-	vamos a django_crud_api
- 
-	-> urls.py
+	vamos a 
+ 		> django_crud_api > urls.py
+   
 		 agregamos en urlpatterns = [
-		 path('task/', include('tasks.urls'))
+		 path('task/', include('tasks.urls')) - recordar que se debe agregar en import el include
 		 
 		correr		
 		python manage.py runserver
