@@ -278,52 +278,28 @@ Soluciones posibles:
    
 Ejecuta estos comandos en tu terminal (con el entorno virtual activado):
 
+	Soluciones definitivas:
+1. Verifica que estés en el entorno virtual correcto
+Activa el entorno virtual antes de instalar:
+
 	bash
 	Copy
-	pip install coreapi coreschema
-	pip install --upgrade djangorestframework
-	2. Deshabilitar la documentación automática (alternativa)
-	Si no necesitas la interfaz web de documentación de la API, puedes desactivarla en tu settings.py:
-	
-	python
-	Copy
-	REST_FRAMEWORK = {
-	    'DEFAULT_SCHEMA_CLASS': None,
-	}
-	3. Verificar la instalación de DRF
-	Asegúrate de que tienes DRF correctamente instalado y configurado:
+	# Windows (PowerShell o CMD):
+	.\venv\Scripts\activate
+	Luego instala coreapi:
 	
 	bash
 	Copy
-	pip show djangorestframework
-	Y que esté en tus INSTALLED_APPS:
-	
-	python
-	Copy
-	INSTALLED_APPS = [
-	    ...
-	    'rest_framework',
-	]
-	Posibles causas del problema:
-	Instalación incompleta de DRF
-	
-	Entorno virtual corrupto
-	
-	Permisos de instalación en Windows
-	
-	Si el problema persiste:
-	Crea un nuevo entorno virtual:
+	pip install coreapi
+
+	2. Reinstala coreapi limpiando la caché
+	Ejecuta estos comandos en orden:
 	
 	bash
 	Copy
-	python -m venv nuevo_venv
-	nuevo_venv\Scripts\activate
-	pip install django djangorestframework coreapi
-	Verifica que no tengas conflictos de versiones entre paquetes.
-	
-	Si usas Python de Microsoft Store, considera instalar Python directamente desde python.org.
-	
-	Después de aplicar estos cambios, intenta ejecutar el servidor nuevamente con python manage.py runserver.
+	-> pip uninstall coreapi coreschema -y
+	-> pip cache purge
+	-> pip install coreapi --no-cache-dir
 
 -->> Frontend <<--
 
