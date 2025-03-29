@@ -285,7 +285,9 @@ Activa el entorno virtual antes de instalar:
 	bash
 	Copy
 	# Windows (PowerShell o CMD):
+
 	.\venv\Scripts\activate
+
 	Luego instala coreapi:
 	
 	bash
@@ -293,12 +295,16 @@ Activa el entorno virtual antes de instalar:
 	pip install coreapi
 
 	2. Reinstala coreapi limpiando la caché
+    
 	Ejecuta estos comandos en orden:
 	
 	bash
 	Copy
+
 	-> pip uninstall coreapi coreschema -y
+   
 	-> pip cache purge
+   
 	-> pip install coreapi --no-cache-dir
 
 -->> Frontend <<--
