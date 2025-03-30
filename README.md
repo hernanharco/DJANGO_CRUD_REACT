@@ -130,7 +130,14 @@ agregamos 'tasks' al final se coloca despues de la coma quedando
 
 colocamos el siguiente comando  lo siguiente es para crear todas las tablas y creo el db.sqlite3
 
+ 	python manage.py makemigrations
 	python manage.py migrate
+
+ 	lo siguiente es para borrar toda la base de datos 
+
+    	# Borra la base de datos y las migraciones
+		rm db.sqlite3
+		rm -r your_app/migrations/
 	
 volvemos a dar
 
