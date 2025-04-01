@@ -322,9 +322,13 @@ debemos de verificar que node este instalado
 	node --version
 	
 Crear el projecto
+
 	npm create vite
+ 
 		colocar un nombre: client
+  
 		elegir el frame. React
+  
 		variante. javascript
 		
 		entramos en la carpeta cd client
@@ -335,12 +339,13 @@ Crear el projecto
 			
 		-> para que se comunique nuestro frontend con nuestro backend <-
 		instalando modulos
+  
 		npm i react-router-dom react-hot-toast axios react-hook-form 42:51
 		
-	> client > assents > App.jsx - quitamos el codigo
+	> client > src > App.jsx - quitamos el codigo
 	rfce - para que salga el codigo rapido
 	
-	App.css - quitamoe el codigo
+	App.css - quitamos el codigo
 	index.css - quitamos todo
 	
 	creamos la carpetas dentro del >src
