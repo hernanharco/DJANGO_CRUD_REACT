@@ -167,6 +167,11 @@ Debemos agregarlo en
 	MIDDLEWARE = [ video - 11.19
 		podemos buscarlo en google como django cors headers y llegamos a la siguiente pagina
 			https://pypi.org/project/django-cors-headers/2.0.0/ 
+   	debe quedar el MIDDLEWARE con estas dos linear
+
+		    'corsheaders.middleware.CorsMiddleware',
+		    'django.middleware.common.CommonMiddleware',
+    	
 		
 para que sirve esta parte
 
