@@ -467,4 +467,4 @@ Crear el projecto
 			archivos trabajados app.jsx, TaskList, TaskCard, Navigation, TaskFormPage			
 
 
-https://www.youtube.com/watch?v=38XWpyEK8IY&t=2349s -> inforamcion donde se estudio
+https://www.youtube.com/watch?v=38XWpyEK8IY&t=2349s -> informacion donde se estudio <-
