@@ -465,4 +465,6 @@ Crear el projecto
 							hay una parte que es improtar se debe hacer en el index.css
 							
 			archivos trabajados app.jsx, TaskList, TaskCard, Navigation, TaskFormPage			
-		
+
+
+https://www.youtube.com/watch?v=38XWpyEK8IY&t=2349s -> inforamcion donde se estudio
